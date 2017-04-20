@@ -26,7 +26,7 @@ class SandClockView: UIView {
     var bottomLayer: CAShapeLayer!//沙漏下半部分
     var lineLayer: CAShapeLayer!//沙漏 漏线
     
-    var frameLayer: CAShapeLayer!//沙漏 漏线
+    var frameLayer: CAShapeLayer!//沙漏 边框
     
     var containerAnimation: CAKeyframeAnimation!
     var topAnimation: CAKeyframeAnimation!
