@@ -9,17 +9,29 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var sandClockView: SandClockView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        sandClockView = SandClockView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+        sandClockView?.center = view.center
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func startAnimation(_ sender: Any) {
+        sandClockView?.showAnimation()
+        view.addSubview(sandClockView!)
+    }
 
+    @IBAction func stopAnimation(_ sender: Any) {
+        sandClockView?.removeAnimation()
+        sandClockView?.removeFromSuperview()
+        print("stop")
+    }
 }
 

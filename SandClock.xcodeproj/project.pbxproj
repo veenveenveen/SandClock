@@ -12,6 +12,7 @@
 		E25BF0C71EA789C10024B503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25BF0C51EA789C10024B503 /* Main.storyboard */; };
 		E25BF0C91EA789C10024B503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25BF0C81EA789C10024B503 /* Assets.xcassets */; };
 		E25BF0CC1EA789C10024B503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25BF0CA1EA789C10024B503 /* LaunchScreen.storyboard */; };
+		E25BF0D41EA847E90024B503 /* SandClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25BF0D31EA847E90024B503 /* SandClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E25BF0C81EA789C10024B503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25BF0CB1EA789C10024B503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25BF0CD1EA789C10024B503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25BF0D31EA847E90024B503 /* SandClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E25BF0C11EA789C10024B503 /* AppDelegate.swift */,
 				E25BF0C31EA789C10024B503 /* ViewController.swift */,
+				E25BF0D31EA847E90024B503 /* SandClockView.swift */,
 				E25BF0C51EA789C10024B503 /* Main.storyboard */,
 				E25BF0C81EA789C10024B503 /* Assets.xcassets */,
 				E25BF0CA1EA789C10024B503 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				E25BF0C41EA789C10024B503 /* ViewController.swift in Sources */,
 				E25BF0C21EA789C10024B503 /* AppDelegate.swift in Sources */,
+				E25BF0D41EA847E90024B503 /* SandClockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				E25BF0D21EA789C10024B503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
